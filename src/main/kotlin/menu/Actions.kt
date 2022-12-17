@@ -41,6 +41,14 @@ fun uncomplete(repository: TasksRepository) {
     repository.uncompleteTask(id)
 }
 
+fun sortedByDeadlineDate(repository: TasksRepository) {
+    TODO("Not implemented yet")
+}
+
+fun sortedByName(repository: TasksRepository) {
+    TODO("Not implemented yet")
+}
+
 fun quit() {
     exitProcess(0)
 }
