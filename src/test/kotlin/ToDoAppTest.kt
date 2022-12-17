@@ -55,6 +55,8 @@ class ToDoAppTest {
     @Test
     @Disabled("Not implemented yet")
     fun checkSortTasksByDeadlineDate() {
+
+        TODO("Add deadline date to task")
         val task1 = createTask(1, "test task 1", Priority.LOW)
         val task2 = createTask(2, "test task 2", Priority.MEDIUM)
         val task3 = createTask(3, "test task 3", Priority.LOW)
